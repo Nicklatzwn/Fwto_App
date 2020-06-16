@@ -11,6 +11,6 @@ class Config:
     UPLOAD_PROFILE_FOLDER = 'static/profile_pics'
     # MAIL_USERNAME = os.environ.get('EMAIL_USER')
     # MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-    MAIL_USERNAME = 'nicklatzon@gmail.com'
-    MAIL_PASSWORD = 'nicklatzon01021995'
+    MAIL_USERNAME = ''
+    MAIL_PASSWORD = ''
     SQLALCHEMY_TRACK_MODIFICATIONS = False
