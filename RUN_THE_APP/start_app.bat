@@ -1,0 +1,10 @@
+cd C:\Users\%username%\Desktop\Fwto_App
+CALL venv\Scripts\activate
+set FLASK_APP=run.py
+set FLASK_DEBUG=1
+cd C:\Users\%username%\Desktop\Fwto_App\AppBatFiles
+start fireapp.bat
+cd C:\Users\%username%\Desktop\Fwto_App
+flask run
+cd C:\Users\%username%\Desktop\Fwto_App\AppBatFiles
+CALL venv\Scripts\deactivate
